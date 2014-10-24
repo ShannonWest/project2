@@ -137,8 +137,25 @@ PAGE:
 **************************/
 
 /*************************
-PAGE: 
+PAGE: BLOG
 **************************/
+
+.blog_sidebar {
+  float: right;
+  margin-right: 0px;
+  border-radius: 0px;
+  background-color: orange;
+}
+
+.blog_articles {
+  padding: 4em;
+  line-height: 2em;
+}
+
+.placeholder {
+  float: right;
+  margin: 20px;
+}
 
 /*************************
 PAGE: 
@@ -178,10 +195,6 @@ nav a.selected, nav a:hover {
 
 section {
   color: #03B4B3;
-}
-
-.blog_articles {
-  padding: 5em;
 }
 
 aside {
