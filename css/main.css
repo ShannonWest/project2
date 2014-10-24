@@ -17,7 +17,7 @@ body {
 }
 
 #wrapper {
-max-width: 95%;
+max-width: 90%;
 margin: 0 auto;
 padding: 0 5%;
 }
@@ -35,7 +35,7 @@ HEADING
 **************************/
 
 header {
-  margin-bottom: px;
+  margin-bottom: 5px;
   border-radius: 5px;
   text-align: center;
 }
@@ -111,25 +111,8 @@ PAGE: HOME
   text-align: center;
 } 
 
-section {
-  margin: 0;
-  padding: 0;
-}
-
-aside {
-  float: right;
-  margin-bottom: 10px;
-  border-radius: 3px;
-}
-
 .sidebar_img {
   margin 0;
-}
-
-aside p {
-  margin: 0;
-  padding: 5%;
-  font-size: 0.75em;
 }
 
 /*************************
@@ -140,22 +123,22 @@ PAGE:
 PAGE: BLOG
 **************************/
 
-.blog_sidebar {
-  float: right;
-  margin-right: 0px;
-  border-radius: 0px;
-  background-color: orange;
+.page {
+  margin-left: 50px;
 }
 
-.blog_articles {
-  padding: 4em;
-  line-height: 2em;
+.content {
+  float: right;
+  width: 90%;
+  margin-left: 50px;
+  margin-top: none;
 }
 
 .placeholder {
   float: right;
   margin: 20px;
 }
+
 
 /*************************
 PAGE: 
@@ -176,6 +159,11 @@ header h1 {
 
 header h2 {
   color: #03B4B3;
+}
+
+header h3 {
+  color: black;
+  font-size: 16pt;
 }
 
 /* nav background on mobile */

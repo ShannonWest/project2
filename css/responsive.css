@@ -59,14 +59,13 @@
     margin: 60px;
   }
 
-  .content {
+  .page {
     float: left;
     width: 10%;
   }
 
   section {
     width: 85%;
-    margin-left: 40px;
   }
 
   aside {
